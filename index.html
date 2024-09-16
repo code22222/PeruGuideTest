@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sam's Peru Guide</title>
+    <link rel="stylesheet" href="C:\Users\sboli\.vscode\htmltest\cssTest.css">
+</head>
+<body>
+    <!-- ALL IMAGES THROUGHOUT THIS WEBSITE WERE TAKEN BY ME PERSONALLY OR UPLOADED FROM GOOGLE, HOSTELWORLD, OR ANOTHER INTERNET SOURCE. ANY IMAGES NOT TAKEN BY ME HAVE THE IMAGE URL IN THE CODE TO AVOID COPYRIGHT INFRINGEMENT -->
+    <header>
+        <div class="logo">
+            Sam's Peru Guide
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="C:\Users\sboli\.vscode\htmltest\htmlTest.html" class="tab-link active">Home</a></li> 
+            <li><a href="C:\Users\sboli\OneDrive\PeruWebsite\LimaPeru.html" class="tab-link">Lima</a></li>
+            <li><a href="C:\Users\sboli\OneDrive\PeruWebsite\CuscoPeru.html" class="tab-link">Cusco</a></li>
+            <li><a href="C:\Users\sboli\OneDrive\PeruWebsite\ArequipaPeru.html" class="tab-link">Arequipa</a></li>
+            <li><a href="C:\Users\sboli\OneDrive\PeruWebsite\HuacachinaPeru.html" class="tab-link">Huacachina</a></li>
+
+        </ul>
+    </nav>
+    <main>
+        <section id="Home" class="tab-content">
+           <center><h1 class="heading">Welcome to Sam's Peru Guide</h1></center> 
+            <div class="text-box">Welcome to the guide on traveling in Peru! Over the summer, I took a big leap of faith and solo traveled to Peru which resulted in some of my life's greatest experiences and accomplishments. Not only did my trip lead to a lot of personal growth, but I was also able to see amazing views and try so many new and unique experiences. In hopes of sharing the beauty of Peru with as many people as possible, I built this website, compiling all of the information from my personal experiences and the initial research that went into this trip. I hope you enjoy the website and use it for your next travel plans!</div>
+        </section>
+
+        <section id="Itinerary" class="tab-content">
+            <center><h1 class="heading">Basic Itinerary</h1></center>  
+            <!-- Timeline -->
+            <style>
+                .timeline {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin: 20px 0;
+                    position: relative;
+                    width: 100%;
+                    max-width: 1200px;
+                    margin: 0 auto;
+                }
+        
+                .timeline::before {
+                    content: '';
+                    position: absolute;
+                    top: 50%;
+                    left: 0;
+                    width: 100%;
+                    height: 4px;
+                    background-color: #b11625; /* Red color of Peru's national flag */
+                    z-index: 0;
+                }
+        
+                .timeline-point, .start-end {
+                    position: relative;
+                    color: white;
+                    padding: 10px 15px;
+                    border-radius: 50%;
+                    text-align: center;
+                    z-index: 1;
+                }
+        
+                /* Alternate colors for the points */
+                .timeline-point:nth-child(odd), .start-end:nth-child(odd) {
+                    background-color:#333 ; /* grey for odd elements */
+                }
+        
+                .timeline-point:nth-child(even), .start-end:nth-child(even) {
+                    background-color: #b34040; /* red for even elements */
+                }
+        
+                .timeline-point::after, .start-end::after {
+                    content: attr(data-time);
+                    position: absolute;
+                    top: calc(100% + 10px);
+                    left: 50%;
+                    transform: translateX(-50%);
+                    white-space: nowrap;
+                    color: #333;
+                    font-size: 0.9em;
+                }
+
+            </style>
+        </head>
+        <body>
+        
+        <div class="timeline">
+            <div class="start-end" data-time="START">NJ</div>
+            <div class="timeline-point" data-time="1.5 days">Lima</div>
+            <div class="timeline-point" data-time="2.5 days">Cusco</div>
+            <div class="timeline-point" data-time="5 days">Machu Picchu</div>
+            <div class="timeline-point" data-time="2.5 days">Cusco</div>
+            <div class="timeline-point" data-time="3.5 days">Arequipa</div>
+            <div class="timeline-point" data-time="1.5 days">Huacachina</div>
+            <div class="timeline-point" data-time="0.5 days">Lima</div>
+            <div class="start-end" data-time="END">NJ</div>
+        </div>
+        <br><br>
+            
+        </section>
+        
+        <div class="text-box">
+            <table class="itinerary-table">
+                <tr>
+                    <td>
+                        <strong>Day 1:</strong> Flight from NJ to Lima<br>
+                        <strong>Day 2:</strong> Explored the city of Lima<br>
+                        <strong>Day 3:</strong> Flight from Lima to Cusco<br>
+                        <strong>Day 4:</strong> Explored the city of Cusco<br>
+                        <strong>Day 5:</strong> ATV tour of Sacred Valley and salt flats<br>
+                        <strong>Day 6:</strong> First day of Machu Picchu Trek - Humantay Lake
+                    </td>
+                    <td>
+                        <strong>Day 7:</strong> Ascent to top of Salkantay Mountain<br>
+                        <strong>Day 8:</strong> Hike through rainforest and thermal springs<br>
+                        <strong>Day 9:</strong> Hike through Inca Ruins and descent to Aguas Calientes<br>
+                        <strong>Day 10:</strong> Last day of trek: Explore Machu Picchu<br>
+                        <strong>Day 11:</strong> Recovery day in Cusco<br>
+                        <strong>Day 12:</strong> Rainbow Mountain and night bus from Cusco to Arequipa
+                    </td>
+                    <td>
+                        <strong>Day 13:</strong> Explored city of Arequipa<br>
+                        <strong>Day 14:</strong> Colca Canyon Tour<br>
+                        <strong>Day 15:</strong> Rock Climbing in Arequipa<br>
+                        <strong>Day 16:</strong> Bus from Arequipa to Huacachina<br>
+                        <strong>Day 17:</strong> Explore Huacachina and sand skiing in the sand dunes<br>
+                        <strong>Day 18:</strong> Bus from Huacachina to Lima and Flight from Lima to NJ
+                    </td>
+                </tr>
+            </table>
+        </div>
+        
+</section>       
+<center><h1 class="heading">Pricing</h1></center>  
+<section class="pricing-section">
+        <div class="pricing-card">
+            <!-- Pricing Details on the Left -->
+            <div class="pricing-details">
+                <center><p class="note">*Rounded and Approximated*</p></center>
+                <div class="price-item">
+                    <h5>Total:</h5>
+                    <h5>$2500</h5>
+                </div>
+                <div class="price-item">
+                    <span>Food:</span>
+                    <span>$565</span>
+                </div>
+                <div class="price-item">
+                    <span>Accommodations:</span>
+                    <span>$235</span>
+                </div>
+                <div class="price-item">
+                    <span>Transportation:</span>
+                    <span>$1100</span>
+                </div>
+                <div class="price-item">
+                    <span>Activities:</span>
+                    <span>$500</span>
+                </div>
+                <div class="price-item">
+                    <span>Miscellaneous:</span>
+                    <span>$100</span>
+                </div>
+            </div>
+    
+            <!-- Vertical Line Divider -->
+            <div class="vertical-line"></div>
+    
+            <!-- Takeaway on the Right -->
+            <div class="pricing-takeaway">
+                <center><p class="note">Takeaway:</p></center>
+               <center><p>My overall expenses for the 18-day trip came out to be around $2500. While I definitely could have spent less on the trip, especially given the extremely favorable USD to PEN conversion rate (3.5 PEN: 1 USD), I didn’t hold back on spending money on activities or delicious food, which is a key factor in making my trip so enjoyable. It is important to have a budget and not overspend, but the bottom line is that you are on vacation, so don’t hold back on gaining new and amazing experiences.</p></center>
+            </div>
+        </div>
+      </div>
+  </section>
+
+
+        <section id="Transportation" class="tab-content">
+            <center><h1 class="heading">Transportation Details</h1></center> 
+        
+           
+        
+        <div class="container">
+            <!-- Flights Column -->
+            <div class="column flights-column">
+                <center><h2>Flights</h2></center>
+                    <h4>EWR (NJ) to LIM (Lima):$705 roundtrip</h4>
+                    <ul> 
+                    <li>Nonstop 7-hour flight with free carry-on included.</li>
+                    <li>While there were cheaper options in the $600 range, I chose a non-stop flight to eliminate as much chaos as possible, but connecting flights are definitely a budget friendly alternative to consider </li>
+                    <li>I was also hesitant with what dates I wanted to travel, so I bought my ticket relatively late, but if your plans are set 1.5-2 months in advance the tickets were much cheaper in the $400 range </li>
+                </ul> <br>
+                    <h4>LIM (Lima) to CUZ (Cusco):$105 one-way</h4> 
+                    <ul>
+                    <li>1 hour 20 minutes flight with carry-on included in the price</li>
+                    <li>This was also purchased last minute because I wasn’t sure when I would leave Lima so the price was higher than the typical $50 range (not including carry on)</li>
+                </ul>
+            </div>
+        
+            <!-- Inter-City Travel Column -->
+            <div class="column intercity-column">
+               <center><h2>Inter-City Travel</h2></center>
+                <div style="display: flex; justify-content: space-between;">
+                    <div style="width: 45%;">
+                        <center><h4><u>Uber And Lyft Are The Best Options</u></h4></center>
+                        <ul>
+                            <li>It is very affordable, easily accessible, comfortable, and safe</li>
+                            <li>An example of the amazing rates would be around 7 soles ($2) for a 10-minute drive</li>
+                        </ul><br>
+                        <center><h4><u>Consider Using Combis</u></h4></center>
+                        <ul>
+                            <li>Combis are micro-busses (usually covered in stickers) that are very cheap and reliable</li>
+                            <li>Beware: They are packed tightly with passengers and you might find the bus moving with the doors open!</li>
+                        </ul>
+                        <center><h4><u>Rent Bikes or Scooters</u></h4></center>
+                        <ul>
+                            <li>Another inexpensive way to get around the city is by renting bikes or scooters (similair to Citi bikes in NYC)</li>
+                        </ul>
+                    </div>
+                    <div style="width: 45%;">
+                        <center><h4><u>Walk Around</u></h4></center>
+                        <ul>
+                            <li>The cities in Peru are very walkable and relatively safe so if you have time to spare, walk to your destination</li>
+                            <li>Walking is not only free, but it's also a great way to explore Peru that you might miss out on if you breeze past with automobiles</li>
+                        </ul><br>
+                        <center><h4><u>Stay Away From Taxis!</u></h4></center>
+                        <ul>
+                            <li>The sneaky techniques of taxi drivers result in tourists being overcharged 3x the price of a normal fare</li>
+                            <li>If you have no choice but to use a taxi, make sure to agree on the price (in the correct currency) before entering the car</li>
+                        </ul><br>
+                       <center><h4><u>Avoid Renting A Car</u></h4></center>
+                        <ul>
+                            <li>The roads in Peru are very hectic and dangerous (worse than NYC) so it’s best to let others do the driving</li>
+                        </ul>
+                     
+                    </div>
+                    
+                    
+                </div>
+
+            </div>
+        
+            <!-- Bus Column -->
+            <div class="column bus-column">
+                <center><h2>Bus</h2></center>
+        
+        <center><h4><u>My Trips</u></h4></center>
+        <ul>
+            <li>Cusco to Arequipa: Overnight 10 hour bus for $25</li>
+            <li>Arequipa to Ica (10 minutes away from Huacachina): 13 hour day bus for $40</li>
+            <li>Ica to Lima: 5 hour day bus for $16</li>
+        </ul>
+        <br>
+        
+                <ul>
+                    <li>
+                        There are many bussing services in Peru, but the one I chose for all of my travels was 
+                        <a href="https://www.cruzdelsur.com.pe/" target="_blank">Cruz Del Sur</a> after hearing many positive recommendations </li>
+                        <li>The bus features luxurious and comfortable reclining seats up to 140 or 160 degrees, is affordable, and most importantly, safe</li>
+                        <li>To book a seat, use the website to select your travel destination, origin, and seat. This can be done a few days in advance or even same day</li>
+                </ul>
+                
+               
+              
+            </div>
+        </div>
+        </section>
+
+
+
+        <section id="Food" class="tab-content">
+            <center><h1 class="heading">Food</h1></center>  
+            <section class="food-section">
+                <div class="food-card">
+                    <!-- Pricing Details on the Left -->
+                    <div class="food-details">
+        
+                        <ul>
+                            <li>Food is relatively cheap in Peru</li>
+                             <li class="open">Breakfast and lunch range from 20-50 soles ($5-$15).</li>
+                             <li class="open">Dinner can range from 50-120 soles ($15-$35).</li>
+                             <li class="open">Closer to the city center, food is more touristic and expensive.</li>
+         <br>
+                             <li>Must-Try Peruvian Cuisine:</li>
+                             <li class="open">Guinea Pig (Cuy) is a delicacy in Peru. While it does have an odd taste that you can't quite place, it is 100% worth trying for the experience</li>
+                             <li class="open">Alpaca meat is abundant in Peru, and it is very delicious</li>
+                             <li class="open">Lomo Saltado is another popular dish to try. It consists of alpaca meat, grilled vegetables, potatoes, and rice</li>
+                             <li class="open">Inca Kola is a popular sugary soda drink that tastes very good</li>
+                             <li class="open">Lima, Peru is known as the ceviche capital of the world. Make sure to try the various unique and delicious ceviche dishes Peru has to offer</li>
+                        <li class="open">The national drink of Peru is the Pisco Sour- a delicious combination of Pisco brandy, citus juice, and egg whites </li>
+                        <li class="open">Peru is home to many tasty and healthy fruit. I reccomend going into a market and tasting these exotic fruits as they are tasty and have amazing health benefits</li>
+                        <li class="open">Anticuchos de Corazon is the grilled heart of beef or alpaca. While eating heart may be offputting, I heard from many people that it was delicious and regret not trying it</li>
+                            </ul>
+                    </div>
+            
+                    <!-- Vertical Line Divider -->
+                    <div class="vertical-line"></div>
+            
+                    <!-- Takeaway on the Right -->
+                    <div class="food-takeaway">
+                        <div class="food-images">
+                            <img src="C:\Users\sboli\Downloads\archive\IMG_8572.JPG" alt="Guinea Pig">
+                            <img src="https://media-cdn.tripadvisor.com/media/photo-s/02/a8/79/05/alpaca-dish.jpg" alt="Alpaca Meat">
+                            <img src="https://www.oliveandmango.com/images/uploads/2022_07_18_lomo_saltado_0.jpg" alt="Lomo Saltado">
+                            <img src="https://chifaperuanomadrid.com/wp-content/uploads/2020/04/INKACOLA-300.png" alt="Inca Kola">
+                        </div>
+                        <br><br><br><br><br>
+                        <div class="food-images"
+                             <img src="https://www.eatperu.com/wp-content/uploads/2020/06/authentic-peru-ceviche-with-onion-sweet-potato.jpg" alt="Ceviche"> <!--something wrong here bc first line so this is sacrificial first line and i copied and pasted image onto next line-->
+                             <img src="C:\Users\sboli\Downloads\archive\IMG_9191.JPG" alt="Ceviche">
+                            <img src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/pisco-sour-44f6c3b.jpg?quality=90&resize=556,505" alt="Pisco Sour">
+                           <img src="https://www.chefspencil.com/wp-content/uploads/Peruvian-Fruits-1.jpg" alt="Fruits">
+                            <img src="https://www.cookedandloved.com/wp-content/uploads/2017/08/marinated-beef-heart-skewers-social.jpg" alt="Grilled Heart">
+                        </div>
+                     
+                </div>
+            </section>
+        
+          </section>
+
+
+
+
+
+
+          <section id="Tips" class="tab-content">
+            <center><h1 class="heading">Solo Travel Tips</h1></center>  
+              
+<div class="container">
+    <!-- A Column -->
+    <div class="column Acolumn">
+            <h3>Navigation</h3>
+            <ul> 
+            <li> When entering a new city, try to take a free walking tour as soon as possible to familiarize yourself with the city before exploring on your own. It's also a great way to make new friends!</li>
+            <li>Download offline maps on google maps prior to the trip or when you have secure wifi so you can navigate the city without using data/if there is no service </li>
+        </ul> <br>
+        <h3>Accomodations</h3> 
+        <ul>
+        <li>The difference in price for single rooms vs multi-person rooms in hostels is usually only a few dollars a night. While it is definitely inexpensive and a great way to make friends by sleeping in dorms, I recommend alternating between sleeping with others and sleeping alone</li>
+        <li>It is important to balance your sleep with your social interactions, and if it is your first time traveling alone and you need a “safe” space to be alone and recharge your social batteries, don’t be afraid to book a single room</li>
+        <li>Bring shower shoes for your stays in hostels</li>
+    </ul> <br>
+    <h3>Altitude Acclimation</h3> 
+        <ul>
+            <li>Altitude sickness is very common in Peru, especially Cusco and Machu Picchu where the elevation is 3500 meters</li>
+             <li>To adjust, buy altiude sickness pills, drink coca leaf tea, or use the local custom of chewing on the coca leaves</li>
+             <li>If you are taking a trek to Machu Picchu, allow your body 2-3 days to acclimate to the high altitude before you start by exploring the city of Cusco and the surrounding area</li>
+      
+    </ul>
+            
+    </div>
+
+    <!-- B column-->
+    <div class="column Bcolumn">
+        <h3>Have Fun and Explore!</h3> 
+        <ul>
+        <li>Solo travel is a huge facilitator of personal growth as it pushes you out of your comfort zone and forces interactions you would have never had otherwise. Be open to meeting new people, trying new foods, and embracing new experiences</li>
+        <li>While it is helpful to have a plan, avoid overplanning and be flexible to changes. My trip's final itinerary was different from my initial itinerary because I embraced new and spontaneous adventures</li>
+         <li>The beauty of traveling alone is the freedom to decide your daily activities based on your own interests and feelings. Embrace this freedom and make the most of your journey by doing what YOU want to do!</li>
+      
+    </ul><br>
+
+        <h3>Security</h3>
+        <ul> 
+        <li>Remember to bring a lock to keep your personal items safe when staying at hostels</li>
+        <li>Carry a photocopy of important documents like your passport or ID in case it is lost or stolen</li>
+        <li>For additional safety, consider using AirTags on valuable items since their location can be viewed anywhere regardless of service (as long as the viewer has service, the airtags location can be found)</li>
+        <li>I also carried a “fake wallet” which only had a few dollars so that if in a worst case scenario where I was robbed, I could give the wallet away and escape with my real valuables</li>
+        <li>Buying travel insurance is a good idea and it is fairly inexpensive ($45). The site I used to find a plan is   <a href="https://www.aardy.com/" target="_blank">https://www.aardy.com/</a> </li>
+
+    </ul> 
+        
+    </div>
+
+    <!-- C Column -->
+    <div class="column Ccolumn">
+        <h3>Finances</h3>
+        <ul> 
+        <li>Cash is king in Peru so make sure to have enough cash, especially in more rural parts of the country. While the restaurants and hostels in touristic neighborhoods accept card or Apple pay, there are many other instances where cash is needed</li>
+        <li>Another financial tip to know about is Western Union, which allows direct money transfers from your bank account if you have an account (and there is no fee for your first transfer). If your ATM pin isn’t working or you are having issues withdrawing money, Western Union can be a lifesaver</li>
+    </ul> <br>
+    <h3>SIM Card</h3> 
+    <ul>
+    <li>The app Airalo is a convenient and accessible way to activate a SIM card when entering a new country</li>
+    <li>You can choose as many GB as needed and can always add more if you run out</li>
+    <li>Use the code SAM2741 for 3$ off your first purchase</li>
+
+</ul>  <br>
+<h3>Souvenirs</h3> 
+        <ul>
+        <li>Peru is known for its high quality alpaca fur. It is amazing quality and very affordable so buy as much as you can!</li>
+      
+    </ul> <br>
+    <h3>Language Barrier</h3> 
+        <ul>
+        <li>While the touristic parts of Peru speak English fairly well, as you stray further from these parts, less people speak or understand English</li>
+      <li>Download an offline translation from Spanish to English so you can understand directions, menus, people, etc in parts where English isn't spoken</li>
+    </ul>
+    </div>
+    
+   
+</div>
+          </section>
+    </main>
+    
+</body>
+</html>
