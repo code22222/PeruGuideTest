@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIMA</title>
+    <link rel="stylesheet" href="C:\Users\sboli\.vscode\htmltest\cssTest.css">
+
+    <title>Arequipa</title>
+    <style>
+        .city-name {
+    font-size: 4em; /* Big font size for city name */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    background-image: linear-gradient(to right, #d24a18, #e54d15); /* Gradient background */
+    -webkit-background-clip: text;
+    color: white; /* Makes the text appear as a gradient */
+}
+
+/* Header styles */
+.city-header {
+    background-color:#d495cf ; /* Adjust color for each city */
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* Navigation styles */
+.city-nav {
+    background-color: #333;
+}
+
+.city-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.city-nav ul li {
+    margin: 0 10px;
+}
+
+.city-nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+.city-nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 0px;
+            padding: 1px;
+            background-color:#bfbdbb;
+        }
+
+        .accommodations-title {
+            text-align: center;
+            font-size: 2.5em;
+            color: #0b0b0b; /* Red color to match Peru theme */
+            margin-bottom: 20px;
+        }
+
+        .accommodations-section {
+            background-color: #e0e0e0; /* Grey background */
+            border-radius: 8px;
+            padding: 20px;
+            max-width: 2000px;
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .accomodation-section {
+    display: flex;
+    justify-content: center; /* Center the pricing card */
+    margin: 20px 0; /* Adds margin to the top and bottom */
+}
+
+.accomodation-card {
+    display: flex; /* Display flex for horizontal layout */
+    background-color: #f9f8f8; /* White background for the card */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px; /* Padding inside the card */
+    max-width: 2000px; /* Maximum width of the card */
+    width: 90%; /* Responsive width */
+    color: #111111; /* Dark text color */
+}
+
+.vertical-line {
+    width: 1px; /* Thin vertical line */
+    background-color: #070707; /* Light gray color for the line */
+    margin: 0 20px; /* Space around the vertical line */
+}
+
+.A-images {
+    margin-top: 20px;
+    display: flex; /* Display flex for horizontal image layout */
+    flex-wrap: wrap; /* Allow images to wrap if needed */
+    gap: 10px; /* Space between images */
+}
+
+.A-images img {
+    width: 200px; /* Fixed width for all images */
+    height: 200px; /* Fixed height for all images */
+    object-fit: cover; /* Ensure images cover the area without distortion */
+    border-radius: 5px; /* Rounded corners for images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+.review-box {
+    display: flex; /* Display flex for horizontal layout */
+    background-color: #faf8f8; /* White background for the card */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px; /* Padding inside the card */
+    max-width: 2000px; /* Maximum width of the card */
+    width: 90%; /* Responsive width */
+    color: #111111; /* Dark text color */
+    text-align: center;
+}
+
+h3{
+    color: #c36161;
+}
+.B-images {
+    margin-top: 20px;
+    display: flex; /* Display flex for horizontal image layout */
+    flex-wrap: wrap; /* Allow images to wrap if needed */
+    gap: 10px; /* Space between images */
+}
+
+.B-images img {
+    width: 150px; /* Fixed width for all images */
+    height: 150px; /* Fixed height for all images */
+    object-fit: cover; /* Ensure images cover the area without distortion */
+    border-radius: 5px; /* Rounded corners for images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+      
+    </style>
+</head>
+<header class="city-header">
+    <div class="city-logo">
+        <h1 class="city-name">AREQUIPA</h1>
+    </div>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="C:\Users\sboli\OneDrive\PeruWebsite\PeruWebsite.html" class="tab-link">Home</a></li> 
+        <li><a href="C:\Users\sboli\OneDrive\PeruWebsite\LimaPeru.html" class="tab-link">Lima</a></li>
+        <li><a href="C:\Users\sboli\OneDrive\PeruWebsite\CuscoPeru.html" class="tab-link">Cusco</a></li>
+        <li><a href="C:\Users\sboli\OneDrive\PeruWebsite\ArequipaPeru.html" class="tab-link active">Arequipa</a></li>
+        <li><a href="C:\Users\sboli\OneDrive\PeruWebsite\HuacachinaPeru.html" class="tab-link">Huacachina</a></li>
+
+    </ul>
+</nav>
+<body>
+    <h1 class="accommodations-title">My Review</h1> 
+    <section class="accomodation-section">
+    <div class="review-box">Arequipa was a city I really enjoyed, especially for its stunning views of the surrounding volcanoes and mountains. I would have liked to stay a day or two longer to fully explore these natural wonders, as my stay was just long enough to get a feel for the city but not quite enough to venture out into the mountains and volcanoes. I planned it this way thinking I would recover from my exhausting Machu Picchu trek in Arequipa, but by the time I arrieved, I was already recovered and would have enjoyed participating in a volcano hike or other active excursion Arequipa would offer.</div>
+
+    </section>
+    <!-- Accommodations Title -->
+<h1 class="accommodations-title">Itinerary</h1>
+
+<section class="accomodation-section">
+    
+        <div class="accomodation-card">
+            <!-- Details on the Left -->
+            <div class="pricing-details">
+                <h3>Day 13</h3>
+            <ul>
+                <li>Ubered from bus station to hostel</li>
+                <li>Explored Arequipa and booked Colca Canyon tour for the next day</li>
+                <li>Joined a walking tour where we explored the city sights, fed alpacas, and tried the city’s “queso helado”</li>
+                <li class="open">While the name might suggest the ice cream was cheese-flavored, it is just a name and actually tasted like vanilla and cinnamon</li>
+                <li>Visited a sunset viewpoint with great views of the main plaza and volcanoes in the background</li>
+            </ul>
+
+            <h3>Day 14</h3>
+            <ul>
+                <li>Early start for the Colca Canyon tour where I enjoyed a stunning sunrise with views of active volcanoes</li>
+                <li class="open">The tour included various spots for canyon views, giving a unique and comprehensive view of the canyon</li>
+                <li>Returned to the hostel and booked a rock climbing excursion for the next day</li>
+            </ul>
+            </div>
+    
+            <!-- Vertical Line Divider -->
+            <div class="vertical-line"></div>
+    
+            <!-- images on the Right -->
+            <div class="pricing-takeaway">
+                <h3>Day 15</h3>
+            <ul>
+                <li>Rock-climbed (outdoors) for the first time in my life!</li>
+                <li>Explored the city one last time and bought more souvenirs</li>
+            </ul>
+
+            <h3>Day 16</h3>
+            <ul>
+                <li>12 hour bus from Arequipa to Huacachina (day bus)</li>
+                <li>Arrived late at night and checked into Huacachina hostel</li>
+            </ul>
+<br>
+                <div class="B-images">
+                    <img src="C:\Users\sboli\Downloads\archive\IMG_8673.JPG" alt="view">
+                    <img src="C:\Users\sboli\Downloads\archive\IMG_8998.HEIC" alt="llama">
+                    <img src="C:\Users\sboli\Downloads\archive\IMG_8696.heic" alt="sunrise">
+                    <img src="C:\Users\sboli\Downloads\archive\IMG_8715.HEIC" alt="colca">
+                    
+                </div>
+               </div>
+        </div>
+      </div>
+  </section>
+  
+<!-- Accommodations Title -->
+<h1 class="accommodations-title">Accommodations</h1>
+
+<section class="accomodation-section">
+    
+        <div class="accomodation-card">
+            <!-- Details on the Left -->
+            <div class="pricing-details">
+                <h3><a href="https://www.hostelworld.com/pwa/wds/hosteldetails.php/Flying-Dog-Hostel-Arequipa/Arequipa/43665?from=2024-05-20&to=2024-05-23&guests=2&origin=microsite" target="_blank">Flying Dog Hostel Arequipa</a></h3>
+                <strong>Basic Single Private Shared Bathroom:</strong> $15/night x 3 nights = $45 <br>
+            <strong>Check-In:</strong> May 20th (1PM - 11PM) <br>
+            <strong>Check-Out:</strong> May 23th (until 11AM) <br>
+            <i>Free Cancellation Before May 17th</i>
+            <br>
+            <ul>
+                <li>Good location and accomodations which included free breakfast each morning</li>
+                <li>Single Room I was in felt like sleeping in a wine cellar which was very cool</li>
+
+            </ul>
+            </div>
+    
+            <!-- Vertical Line Divider -->
+            <div class="vertical-line"></div>
+    
+            <!-- images on the Right -->
+            <div class="pricing-takeaway">
+                <div class="A-images">
+                    <img src="https://a.hwstatic.com/image/upload/f_auto,q_auto,e_sharpen,e_improve,e_vibrance:60/v1/propertyimages/4/43665/pagd2tb63yvefrmgegro" alt="Accommodation image 1">
+                    <img src="https://a.hwstatic.com/image/upload/f_auto,q_auto,h_320,c_limit,e_sharpen,e_improve,e_vibrance:60/v1/propertyimages/4/43665/18.jpg" alt="Accommodation image 2">
+                    <img src="https://a.hwstatic.com/image/upload/f_auto,q_auto,e_sharpen,e_improve,e_vibrance:60/v1/propertyimages/4/43665/pspxzwczgnxmldxgmldu" alt="Accommodation image 3">
+                </div>
+             
+               </div>
+              
+        </div>
+      </div>
+  </section>
+
+  <!-- Accommodations Title -->
+<h1 class="accommodations-title">Excursions & Activities</h1>
+
+<section class="accomodation-section">
+    
+        <div class="accomodation-card">
+            <!-- Details on the Left -->
+            <div class="pricing-details">
+                <h3><a href="https://www.viator.com/tours/Arequipa/Colca-Full-Day-Tour/d5020-75388P2" target="_blank">Colca Canyon Full Day Tour</a></h3>
+                <strong>Price:</strong> $38 
+            <br>
+            <ul>
+                <li>This tour starts early in the morning with a beautiful sunrise and a view of 3 active volcanoes. From there, the van traverses the Colca Canyon, stopping at various points for picturesque views of all angles of the amazing canyon. The third largest canyon in the world, Colca Canyon is home to the condor, the 2nd largest bird in the world. Throughout the trip, you will get a chance to see these beautiful birds soar through the canyon as you learn the history of the land. There is an hour of “free time” to do optional activities such as ATV riding, ziplining, hot springs, kayaking, and more. At the end of the tour, there is a view of a preservation for alpacas and vicunas, as well as other Andean wildlife. Overall the views of the tour were incredible, and I think it is better to just do a one-day tour rather than a multi-day hike of the canyon.</li>
+            </ul><br>
+
+            <h3><a href="https://www.viator.com/tours/Arequipa/Rock-Climbing-Typical-Volcanoes-and-Desserts-Lookout/d5020-62191P5" target="_blank">Rock Climbing Tour</a></h3>
+            <strong>Price:</strong> $30
+        <br>
+        <ul>
+            <li> I booked this excursion through my hostel (Flying Dog Hostel of Arequipa) and it was definitely a cool experience. It was my first time rock climbing (other than indoor bouldering), but I had a blast learning and challenging myself. This was definitely a very strenuous activity and my fingers and arms were exhausted by the end, but it was worth it!</li>
+        </ul>
+            </div>
+    
+            <!-- Vertical Line Divider -->
+            <div class="vertical-line"></div>
+    
+            <!-- images on the Right -->
+            <div class="pricing-takeaway">
+                <div class="A-images">
+                    <img src="C:\Users\sboli\Downloads\archive\IMG_8711.HEIC" alt="Canyon image 2">
+                    <img src="C:\Users\sboli\Downloads\archive\IMG_8810.HEIC" alt="Canyon image 1">
+                    <img src="C:\Users\sboli\Downloads\archive\IMG_8791.HEIC" alt="Canyon image 3">
+                </div>
+                <br><br><br>
+                <div class="A-images">
+                    <img src="C:\Users\sboli\Downloads\archive\IMG_9739.JPG" alt="Accommodation image 1">
+                    <img src="C:\Users\sboli\Downloads\archive\IMG_8877.HEIC" alt="Accommodation image 2">
+                    <img src="C:\Users\sboli\Downloads\archive\IMG_8913.HEIC" alt="Accommodation image 3">
+                </div>
+               </div>
+        </div>
+      </div>
+  </section>
+</body>
+</html>
+
+

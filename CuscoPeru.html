@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIMA</title>
+    <link rel="stylesheet" href="C:\Users\sboli\.vscode\htmltest\cssTest.css">
+
+    <title>Accommodations</title>
+    <style>
+        .city-name {
+    font-size: 4em; /* Big font size for city name */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    background-image: linear-gradient(to right, #d24a18, #e54d15); /* Gradient background */
+    -webkit-background-clip: text;
+    color: white; /* Makes the text appear as a gradient */
+}
+
+/* Header styles */
+.city-header {
+    background-color:#e58f56 ; /* Adjust color for each city */
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* Navigation styles */
+.city-nav {
+    background-color: #333;
+}
+
+.city-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.city-nav ul li {
+    margin: 0 10px;
+}
+
+.city-nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+.city-nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 0px;
+            padding: 1px;
+            background-color:#bfbdbb;
+        }
+
+        .accommodations-title {
+            text-align: center;
+            font-size: 2.5em;
+            color: #0b0b0b; /* Red color to match Peru theme */
+            margin-bottom: 20px;
+        }
+
+        .accommodations-section {
+            background-color: #e0e0e0; /* Grey background */
+            border-radius: 8px;
+            padding: 20px;
+            max-width: 2000px;
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .accomodation-section {
+    display: flex;
+    justify-content: center; /* Center the pricing card */
+    margin: 20px 0; /* Adds margin to the top and bottom */
+}
+
+.accomodation-card {
+    display: flex; /* Display flex for horizontal layout */
+    background-color: #f9f8f8; /* White background for the card */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px; /* Padding inside the card */
+    max-width: 2000px; /* Maximum width of the card */
+    width: 90%; /* Responsive width */
+    color: #111111; /* Dark text color */
+}
+
+.vertical-line {
+    width: 1px; /* Thin vertical line */
+    background-color: #070707; /* Light gray color for the line */
+    margin: 0 20px; /* Space around the vertical line */
+}
+
+.A-images {
+    margin-top: 20px;
+    display: flex; /* Display flex for horizontal image layout */
+    flex-wrap: wrap; /* Allow images to wrap if needed */
+    gap: 10px; /* Space between images */
+}
+
+.A-images img {
+    width: 200px; /* Fixed width for all images */
+    height: 200px; /* Fixed height for all images */
+    object-fit: cover; /* Ensure images cover the area without distortion */
+    border-radius: 5px; /* Rounded corners for images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+.review-box {
+    display: flex; /* Display flex for horizontal layout */
+    background-color: #faf8f8; /* White background for the card */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px; /* Padding inside the card */
+    max-width: 2000px; /* Maximum width of the card */
+    width: 90%; /* Responsive width */
+    color: #111111; /* Dark text color */
+    text-align:center
+}
+
+h3{
+    color: #c36161;
+}
+.B-images {
+    margin-top: 20px;
+    display: flex; /* Display flex for horizontal image layout */
+    flex-wrap: wrap; /* Allow images to wrap if needed */
+    gap: 10px; /* Space between images */
+}
+
+.B-images img {
+    width: 150px; /* Fixed width for all images */
+    height: 150px; /* Fixed height for all images */
+    object-fit: cover; /* Ensure images cover the area without distortion */
+    border-radius: 5px; /* Rounded corners for images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+      
+    </style>
+</head>
+<header class="city-header">
+    <div class="city-logo">
+        <h1 class="city-name">CUSCO</h1>
+    </div>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="C:\Users\sboli\OneDrive\PeruWebsite\PeruWebsite.html" class="tab-link">Home</a></li> 
+        <li><a href="C:\Users\sboli\OneDrive\PeruWebsite\LimaPeru.html" class="tab-link">Lima</a></li>
+        <li><a href="C:\Users\sboli\OneDrive\PeruWebsite\CuscoPeru.html" class="tab-link active">Cusco</a></li>
+        <li><a href="C:\Users\sboli\OneDrive\PeruWebsite\ArequipaPeru.html" class="tab-link">Arequipa</a></li>
+        <li><a href="C:\Users\sboli\OneDrive\PeruWebsite\HuacachinaPeru.html" class="tab-link">Huacachina</a></li>
+
+    </ul>
+</nav>
+<body>
+    <h1 class="accommodations-title">My Review</h1> 
+    <section class="accomodation-section">
+    <div class="review-box">Cusco is rich in culture and heritage, making it my favorite city in Peru. The cobblestone streets, terracotta roofs, unique food, and vibrant atmosphere never gets old. Cusco also serves as the perfect base for exploring iconic sites like Machu Picchu, the Sacred Valley, and Rainbow Mountain. I enjoyed my time here immensely and wouldn't change the number of days I stayed.</div>
+
+    </section>
+    <!-- Accommodations Title -->
+<h1 class="accommodations-title">Itinerary</h1>
+
+<section class="accomodation-section">
+    
+        <div class="accomodation-card">
+            <!-- Details on the Left -->
+            <div class="pricing-details">
+                <center><h2>Pre-Machu Picchu</h2></center>
+                <h3>Day 1</h3>
+            <ul>
+                <li>Flight from LIM (Lima) to CUZ (Cusco) midday</li>
+                <li>Arrived in Cusco hostel via Uber and went to explore the city</li>
+                <li class="open">Bought altitude sickness pills, coca leaf candy, and water which helped subdue the effects of Cusco's high elevation</li>
+            </ul>
+
+            <h3>Day 2</h3>
+            <ul>
+                <li>Joined a free walking tour offered through the hostel and explored various points of the city</li>
+                <li>Explored the city solo, ending at the Jesus statue for a breathtaking sunset and panoramic view</li>
+            </ul>
+
+            <h3>Day 3</h3>
+            <ul>
+                <li>Booked an ATV tour through the hostel and enjoyed amazing views of the Sacred Valley and Salt Mines</li>
+                <li>Attended the Machu Picchu Tour briefing to learn important details about the start of my 5 day trek tomorrow</li>
+            </ul>
+
+            <div class="B-images">
+                <img src="C:\Users\sboli\Downloads\archive (2)\IMG_7496.HEIC" alt="1">
+                <img src="C:\Users\sboli\Downloads\archive (2)\IMG_7517.HEIC" alt="2">
+                <img src="C:\Users\sboli\Downloads\archive (2)\IMG_7619.HEIC" alt="3"
+                <img src="C:\Users\sboli\Downloads\archive (2)\IMG_7604.HEIC" alt="4">
+
+                <img src="C:\Users\sboli\Downloads\archive (2)\IMG_7604.HEIC" alt="4">
+            </div>
+            </div>
+    
+            <!-- Vertical Line Divider -->
+            <div class="vertical-line"></div>
+    
+            <!-- images on the Right -->
+            <div class="pricing-takeaway">
+                <center><h2>Post-Machu Picchu</h2></center>
+                <h3>Day 4</h3>
+            <ul>
+                <li>Spent the day relaxing and recovering after the exhausting (but worth it) Machu Picchu Trek</li>
+                <li>Handled cash issues and resolved hostel and trip payments</li>
+            </ul>
+
+            <h3>Day 5</h3>
+            <ul>
+                <li>Early start for Rainbow Mountain where we bussed through the Peruvian countryside</li>
+                <li>Hiked to the top of Rainbow Mountain for the scenic views and got more pictures with alpacas</li>
+                <li>Bought souvenirs and even tried the local delicacy: Guinea Pig (Cuy)</li>
+                <li class="open">The taste was very odd but the texture resembles chicken. A weird experience for sure but definitely worth a try if you visit!</li>
+                <li>10 hour bus ride from Cusco to Arequipa (night bus)</li>
+            </ul>
+<br>
+            <div class="A-images">
+                <img src="C:\Users\sboli\Downloads\IMG_7599.jpg" alt="1">
+                <img src="C:\Users\sboli\Downloads\IMG_7678.jpg" alt="2">
+                <img src="C:\Users\sboli\Downloads\IMG_7635.jpg" alt="3">
+            </div>
+               </div>
+        </div>
+      </div>
+  </section>
+  
+<!-- Accommodations Title -->
+<h1 class="accommodations-title">Accommodations</h1>
+
+<section class="accomodation-section">
+    
+        <div class="accomodation-card">
+            <!-- Details on the Left -->
+            <div class="pricing-details">
+                <center><h2>Pre-Machu Picchu</h2></center>
+                <h3><a href="https://www.hostelworld.com/pwa/wds/hosteldetails.php/Viajero-Kokopelli-Hostel-Cusco/Cusco/44193?from=2024-05-10&to=2024-05-13&guests=1&origin=microsite" target="_blank">Viajero Kokopelli Hostel</a></h3>
+                <strong>Deluxe 6 Bed Mixed Dorm Ensuite Bathroom:</strong> $21/night x 3 nights = $63 <br>
+            <strong>Check-In:</strong> May 10th (2PM - 11PM) <br>
+            <strong>Check-Out:</strong> May 13th (until 11AM) <br>
+            <i>Free Cancellation Before May 7th</i>
+            <br>
+            <ul>
+                <li>The accommodations and location were nice and there was a good social atmosphere</li>
+                <li>The Resto-Bar also served very good food with affordable prices</li>
+            </ul>
+            
+            <center><h2>Post-Machu Picchu</h2></center>
+            <h3><a href="https://www.hostelworld.com/pwa/wds/hosteldetails.php/Hospedaje-Turistico-Recoleta/Cusco/1696?from=2024-05-17&to=2024-05-20&guests=1&origin=microsite" target="_blank">Hospedaje Turistico Recoleta</a></h3>
+            <strong>Single Private Ensuite Bathroom:</strong> $26/night x 2 nights = $52 <br>
+        <strong>Check-In:</strong> May 17th (12PM - 11PM) <br>
+        <strong>Check-Out:</strong> May 20th (until 10AM) <br>
+        <i>Free Cancellation Before May 14th</i>
+        <br>
+        <ul>
+            <li>There was a quiet, but homey atmosphere to the hostel which I appreciated after my exhausting Machu Picchu trek</li>
+            <li>The laundry service was also great as everything was washed, dried, and folded for an affordable price</li>
+        </ul>
+            </div>
+    
+            <!-- Vertical Line Divider -->
+            <div class="vertical-line"></div>
+    
+            <!-- images on the Right -->
+            <div class="pricing-takeaway">
+                <div class="A-images">
+                    <img src="https://a.hwstatic.com/image/upload/f_auto,q_auto,e_sharpen,e_improve,e_vibrance:60/v1/propertyimages/4/44193/igypx3np1p4zz5r1ftx5" alt="Accommodation image 1">
+                    <img src="https://a.hwstatic.com/image/upload/f_auto,q_auto,h_320,c_limit,e_sharpen,e_improve,e_vibrance:60/v1/propertyimages/4/44193/nnqt6l5vem7xxqffx6jj" alt="Accommodation image 2">
+                    <img src="https://a.hwstatic.com/image/upload/f_auto,q_auto,h_320,c_limit,e_sharpen,e_improve,e_vibrance:60/v1/propertyimages/4/44193/wulgrbcpxrepwofqrsdk" alt="Accommodation image 3">
+                </div>
+                <br><br><br><br><br>
+                <div class="A-images">
+                    <img src="https://a.hwstatic.com/image/upload/f_auto,q_auto,h_320,c_limit,e_sharpen,e_improve,e_vibrance:60/v1/propertyimages/1/1696/vythllmckqdqztrd5eg5" alt="image 1">
+                    <img src="https://a.hwstatic.com/image/upload/f_auto,q_auto,h_320,c_limit,e_sharpen,e_improve,e_vibrance:60/v1/propertyimages/1/1696/38.jpg" alt="Accommodation image 2">
+                    <img src="https://a.hwstatic.com/image/upload/f_auto,q_auto,h_320,c_limit,e_sharpen,e_improve,e_vibrance:60/v1/propertyimages/1/1696/eyae2j1spg13ccc0mm4o" alt="Accommodation image 3">
+                </div>
+               </div>
+      </div>
+  </section>
+
+  <!-- Accommodations Title -->
+<h1 class="accommodations-title">Excursions & Activities</h1>
+
+<section class="accomodation-section">
+    
+        <div class="accomodation-card">
+            <!-- Details on the Left -->
+            <div class="pricing-details">
+                <h3><a href="https://www.viator.com/tours/Cusco/ATV-Tour-to-Moray-Maras-and-Salt-Flat-in-the-Sacred-Valley-from-Cusco/d937-29542P1?m=28353&supag=68732029897&supca=1939178107&supsc=dsa-650389793948&supai=660585468216&supdv=c&supnt=g&suplp=9003971&supli=&supti=dsa-650389793948&tsem=true&supci=dsa-650389793948&supap1=&supap2=&gad_source=1&gclid=CjwKCAjwnqK1BhBvEiwAi7o0X3gjGJ1UM8keH5LLlfGJsjrmrtn7zw3V6xFJuTOVibGOLKZWfPcIJRoC6VQQAvD_BwE" target="_blank">ATV Tour of Salt Mines & Sacred Valley</a></h3>
+                <strong>Price:</strong> $49 
+            <br>
+            <ul>
+                <li> I booked through my hostel (Viajero Kokopelli) but the price was the same as online. I definitely recommend it! The views of the sacred valley and salt mines were great, it was fun riding the atvs, and we learned about the unique agricultural and salt mining techniques</li>
+            </ul><br>
+
+            <h3><a href="https://www.machupicchureservations.org/tour/salkantay-trek-5-days" target="_blank">Salkantay Trek to Machu Picchu</a></h3>
+            <strong>Price:</strong> $320
+        <br>
+        <ul>
+            <li>This 5 day trek was one of the greatest experiences of my life and well worth the money. The cost includes 3 meals a day, sleeping accommodations, an experienced and bi-lingual tour guide, mule service to transport bags, tickets to Machu Picchu, and transportation to the start of the trek and to return back to Cusco. From climbing the Salkantay Mountain, to traversing the rainforest, this trek ends at the jaw-dropping wonder of the world: Machu Picchu. Make sure to book this in advance to secure a ticket to Machu Picchu and reserve a good circuit around Machu Picchu (circuit 1&2 have more picture-esq views than 3&4). However, it is possible to book last minute from this provider or others since there are trips starting every day</li>
+        </ul><br>
+
+        <h3><a href="https://www.getyourguide.com/-l91298/?cmp=ga&cq_src=google_ads&cq_cmp=6658519376&cq_con=79426903819&cq_term=rainbow%20mountain%20peru%20tour&cq_med=&cq_plac=&cq_net=g&cq_pos=&cq_plt=gp&campaign_id=6658519376&adgroup_id=79426903819&target_id=kwd-179386373307&loc_physical_ms=9192197&match_type=e&ad_id=395197407495&keyword=rainbow%20mountain%20peru%20tour&ad_position=&feed_item_id=&placement=&device=c&partner_id=CD951&gad_source=1&gclid=CjwKCAjw_4S3BhAAEiwA_64YhonuJ6VulBmoA3H9CMAjD3dbC_lPIXAyuMS1fN6ERs0zKwCV-6wjmBoC3C4QAvD_BwE" target="_blank">Rainbow Mountain</a></h3>
+        <strong>Price:</strong> $30 
+    <br>
+    <ul>
+        <li> I booked this tour at the very last minute through my hostel (Hospedaje Turistico Recoleta) and received a more favorable price than other options online. However, a downside I wasn’t aware of was that the tour guide spoke very limited English as most of the tour group were locals. The views were still amazing and definitely worth the visit, but I recommend booking through other agencies with bilingual tour guides</li>
+    </ul>
+            </div>
+    
+            <!-- Vertical Line Divider -->
+            <div class="vertical-line"></div>
+    
+            <!-- images on the Right -->
+            <div class="pricing-takeaway">
+                <div class="B-images">
+                    <img src="C:\Users\sboli\Downloads\archive (2)\IMG_7666.HEIC" alt="atv1">
+                    <img src="C:\Users\sboli\Downloads\archive (2)\IMG_7713.HEIC" alt="atv2">
+                    <img src="C:\Users\sboli\Downloads\archive (2)\IMG_7740.HEIC" alt="atv3">
+                    <img src="C:\Users\sboli\Downloads\archive (2)\IMG_8560.HEIC" alt="atv4">
+                </div>
+                <br><br><br><br>
+                <div class="B-images"
+                     <img src="https://www.eatperu.com/wp-content/uploads/2020/06/authentic-peru-ceviche-with-onion-sweet-potato.jpg" alt="Ceviche"> <!--something wrong here bc first line so this is sacrificial first line and i copied and pasted image onto next line-->
+                     <img src="C:\Users\sboli\Downloads\archive (2)\IMG_7812.HEIC" alt="machu1">
+                    <img src="C:\Users\sboli\Downloads\archive (2)\IMG_7987.HEIC" alt="machu2">
+                   <img src="C:\Users\sboli\Downloads\archive (2)\IMG_7885.heic" alt="machu3">
+                    <img src="C:\Users\sboli\Downloads\archive (2)\IMG_8364.HEIC" alt="machu3">
+                </div>
+                <br><br><br><br>
+                <div class="B-images"
+                     <img src="https://www.eatperu.com/wp-content/uploads/2020/06/authentic-peru-ceviche-with-onion-sweet-potato.jpg" alt="Ceviche"> <!--something wrong here bc first line so this is sacrificial first line and i copied and pasted image onto next line-->
+                     <img src="C:\Users\sboli\Downloads\archive (2)\IMG_8478.HEIC" alt="rainbow1">
+                    <img src="C:\Users\sboli\Downloads\archive (2)\IMG_8490.HEIC" alt="rainbow2">
+                   <img src="C:\Users\sboli\Downloads\archive (2)\IMG_8503.HEIC" alt="rainbow3">
+                    <img src="C:\Users\sboli\Downloads\archive (2)\IMG_8519.HEIC" alt="rainbow4">
+                </div>
+               </div>
+        </div>
+      </div>
+  </section>
+</body>
+</html>
+

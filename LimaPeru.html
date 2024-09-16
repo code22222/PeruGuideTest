@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIMA</title>
+    <link rel="stylesheet" href="C:\Users\sboli\.vscode\htmltest\cssTest.css">
+
+    <title>Accommodations</title>
+    <style>
+        .city-name {
+    font-size: 4em; /* Big font size for city name */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    background-image: linear-gradient(to right, #d24a18, #e54d15); /* Gradient background */
+    -webkit-background-clip: text;
+    color: white; /* Makes the text appear as a gradient */
+}
+
+/* Header styles */
+.city-header {
+    background-color:#c36161 ; /* Adjust color for each city */
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* Navigation styles */
+.city-nav {
+    background-color: #333;
+}
+
+.city-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.city-nav ul li {
+    margin: 0 10px;
+}
+
+.city-nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+.city-nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 0px;
+            padding: 1px;
+            background-color:#bfbdbb;
+        }
+
+        .accommodations-title {
+            text-align: center;
+            font-size: 2.5em;
+            color: #0b0b0b; /* Red color to match Peru theme */
+            margin-bottom: 20px;
+        }
+
+        .accommodations-section {
+            background-color: #e0e0e0; /* Grey background */
+            border-radius: 8px;
+            padding: 20px;
+            max-width: 2000px;
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .accomodation-section {
+    display: flex;
+    justify-content: center; /* Center the pricing card */
+    margin: 20px 0; /* Adds margin to the top and bottom */
+}
+
+.accomodation-card {
+    display: flex; /* Display flex for horizontal layout */
+    background-color: #f9f8f8; /* White background for the card */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px; /* Padding inside the card */
+    max-width: 2000px; /* Maximum width of the card */
+    width: 90%; /* Responsive width */
+    color: #111111; /* Dark text color */
+}
+
+.vertical-line {
+    width: 1px; /* Thin vertical line */
+    background-color: #070707; /* Light gray color for the line */
+    margin: 0 20px; /* Space around the vertical line */
+}
+
+.A-images {
+    margin-top: 20px;
+    display: flex; /* Display flex for horizontal image layout */
+    flex-wrap: wrap; /* Allow images to wrap if needed */
+    gap: 10px; /* Space between images */
+}
+
+.A-images img {
+    width: 200px; /* Fixed width for all images */
+    height: 200px; /* Fixed height for all images */
+    object-fit: cover; /* Ensure images cover the area without distortion */
+    border-radius: 5px; /* Rounded corners for images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.review-box {
+    display: flex; /* Display flex for horizontal layout */
+    background-color: #faf8f8; /* White background for the card */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px; /* Padding inside the card */
+    max-width: 2000px; /* Maximum width of the card */
+    width: 90%; /* Responsive width */
+    color: #111111; /* Dark text color */
+    text-align: center;
+}
+
+h3{
+    color: #c36161;
+}
+.B-images {
+    margin-top: 20px;
+    display: flex; /* Display flex for horizontal image layout */
+    flex-wrap: wrap; /* Allow images to wrap if needed */
+    gap: 10px; /* Space between images */
+}
+
+.B-images img {
+    width: 150px; /* Fixed width for all images */
+    height: 150px; /* Fixed height for all images */
+    object-fit: cover; /* Ensure images cover the area without distortion */
+    border-radius: 5px; /* Rounded corners for images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+  
+    </style>
+</head>
+<header class="city-header">
+    <div class="city-logo">
+        <h1 class="city-name">LIMA</h1>
+    </div>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="C:\Users\sboli\OneDrive\PeruWebsite\PeruWebsite.html" class="tab-link">Home</a></li> 
+        <li><a href="C:\Users\sboli\OneDrive\PeruWebsite\LimaPeru.html" class="tab-link active">Lima</a></li>
+        <li><a href="C:\Users\sboli\OneDrive\PeruWebsite\CuscoPeru.html" class="tab-link">Cusco</a></li>
+        <li><a href="C:\Users\sboli\OneDrive\PeruWebsite\ArequipaPeru.html" class="tab-link">Arequipa</a></li>
+        <li><a href="C:\Users\sboli\OneDrive\PeruWebsite\HuacachinaPeru.html" class="tab-link">Huacachina</a></li>
+
+    </ul>
+</nav>
+<body>
+    <h1 class="accommodations-title">My Review</h1> 
+    <section class="accomodation-section">
+    <div class="review-box">Lima makes up 11 million out of Peru's 16 million population, and being Peru's capital, has plenty to offer, however, it felt a bit too city-like for my taste. While I enjoyed exploring the main square (Plaza de Armas), Miraflores, and Barranco, I wouldn't spend more than 2-3 days here.</div>
+
+    </section>
+    <!-- Accommodations Title -->
+<h1 class="accommodations-title">Itinerary</h1>
+
+<section class="accomodation-section">
+    
+        <div class="accomodation-card">
+            <!-- Details on the Left -->
+            <div class="pricing-details">
+                <h3>Day 1</h3>
+            <ul>
+                <li>Flight from EWR to LIM arrived late at night</li>
+                <li>Took a *taxi* from the airport to the hostel</li>
+                <li class="open">My first and only encounter with the Peruvian taxi system ended with me being overcharged 3x the taxi fare because the currency was never established. Taxi drivers are very sneaky and use techniques to scam tourists so stay away from them</li>
+            </ul>
+            <div class="pricing-takeaway">
+                <div class="A-images">
+                    <img src="C:\Users\sboli\Downloads\archive (1)\IMG_7370.HEIC" alt="image 1">
+                    <img src="C:\Users\sboli\Downloads\archive (1)\IMG_7426.HEIC" alt="image 2">
+                    <img src="C:\Users\sboli\Downloads\archive (1)\IMG_7450.heic" alt="image 3">
+
+                </div>
+               </div>
+            </div>
+    
+            <!-- Vertical Line Divider -->
+            <div class="vertical-line"></div>
+    
+            <!-- images on the Right -->
+            <div class="pricing-takeaway">
+                <h3>Day 2</h3>
+            <ul>
+                <li>Explored Miraflores, including various parks and neighborhoods</li>
+                <li>Visited Gaudi Park, enjoying the scenery as I watched surfers and a paraglider along the coast</li>
+                <li>Visited Barranco and explored the surrounding area</li>
+                <li>Went on a free walking tour through my hostel</li>
+                <li class="open">Saw Peruvian favelas (dangerous neighborhoods) from a distance</li>
+                <li class="open">Rode a Combi with the mini-bus moving while the doors were still open</li>
+                <li class="open">Tried chocolate-filled churros, Pisco sour shots, and browsed a local souvenir shop</li>
+                <li class="open">Visited the beutiful main plaza (Plaza de Armas) and saw multiple churches in the surrounding area</li>
+                <li>Ended the night with a colorful water fountain light show with the new friends made on the walking tour</li>
+
+            </ul>
+               </div>
+        </div>
+      </div>
+  </section>
+  
+<!-- Accommodations Title -->
+<h1 class="accommodations-title">Accommodations</h1>
+
+<section class="accomodation-section">
+    
+        <div class="accomodation-card">
+            <!-- Details on the Left -->
+            <div class="pricing-details">
+                <h3><a href="https://www.hostelworld.com/pwa/wds/hosteldetails.php/1900-Backpackers-Hostel/Lima/52923?from=2024-05-08&to=2024-05-10&guests=1&origin=microsite" target="_blank">1900 Backpacker Hostel</a></h3>
+                <strong>Private single room with shared bathroom:</strong> $20/night x 2 nights = $40 <br>
+            <strong>Check-In:</strong> May 8th (2PM - 11PM) <br>
+            <strong>Check-Out:</strong> May 10th (until 11AM) <br>
+            <i>Free Cancellation Before May 3rd</i>
+            <br>
+            <ul>
+                <li>This hostel wasn’t too special compared to the other hostels I stayed in during my trip, but the free walking tour was great, not only because of the information and sights, but because I made a lot of new friends</li>
+            </ul>
+            </div>
+    
+            <!-- Vertical Line Divider -->
+            <div class="vertical-line"></div>
+    
+            <!-- images on the Right -->
+            <div class="pricing-takeaway">
+                <div class="A-images">
+                    <img src="https://a.hwstatic.com/image/upload/f_auto,q_auto,h_320,c_limit,e_sharpen,e_improve,e_vibrance:60/v1/propertyimages/5/52923/1.jpg" alt="Accommodation image 1">
+                    <img src="https://a.hwstatic.com/image/upload/f_auto,q_auto,e_sharpen,e_improve,e_vibrance:60/v1/propertyimages/5/52923/53.jpg" alt="Accommodation image 2">
+                    <img src="https://a.hwstatic.com/image/upload/f_auto,q_auto,h_320,c_limit,e_sharpen,e_improve,e_vibrance:60/v1/propertyimages/5/52923/45.jpg" alt="Accommodation image 3">
+                </div>
+               </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- Accommodations Title -->
+<h1 class="accommodations-title">Excursions & Activities</h1>
+
+<section class="accomodation-section">
+    
+        <div class="accomodation-card">
+            <!-- Details on the Left -->
+            <div class="pricing-details">
+                <h3><a href="https://www.google.com/maps/place/Magic+Water+Circuit+of+the+Reserve+Park/@-12.0703103,-77.0348573,17z/data=!3m1!4b1!4m6!3m5!1s0x9105c8ecd3b32ed1:0xa63ff86b9b214929!8m2!3d-12.0703103!4d-77.0348573!16s%2Fm%2F0464xr0?hl=en&entry=ttu" target="_blank">Water Fountain Light Show</a></h3>
+                <strong>Price:</strong> $1.50 
+            <br>
+            <ul>
+                <li>This was a very cool and inexpensive activity that is well worth the visit. Not only is it cool to watch the fountains and the various changes in colors and pressure, but around 9pm (times vary), there is a light show where short animations are displayed onto the fountains. This is definitely a unique experience I enjoyed…and it was cheap! 
+                </li>
+            </ul>
+            </div>
+    
+            <!-- Vertical Line Divider -->
+            <div class="vertical-line"></div>
+    
+            <!-- images on the Right -->
+            <div class="pricing-takeaway">
+                <div class="B-images">
+                    <img src="C:\Users\sboli\Downloads\archive (1)\IMG_7469.HEIC" alt="1">
+                    <img src="C:\Users\sboli\Downloads\archive (1)\IMG_7471.HEIC" alt="2">
+                    <img src="C:\Users\sboli\Downloads\archive (1)\IMG_7479.HEIC" alt="3">
+                    <img src="C:\Users\sboli\Downloads\archive (1)\IMG_7488.HEIC" alt="4">
+                </div>
+               </div>
+        </div>
+      </div>
+  </section>
+</body>
+</html>
+
+
